@@ -36,7 +36,6 @@ int usb_interrupt_write(usb_dev_handle *dev, int ep, const char *bytes,
 	int size, int timeout){}
 int main()
 {
-    usb_init();
     return 0;
 }
 " LIBUSB_CONST_BUFFERS)
